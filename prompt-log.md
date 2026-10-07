@@ -59,6 +59,16 @@
 
 ---
 
+## 2569-10-07 09:05 คำสั่ง: /verify specs/001-booking/
+
+- เครื่องมือ: Copilot ใน Codespaces (Agent, Auto)
+- ผล test: backend 4 passed, frontend 1 passed
+- จำนวนแถวตามรอยไปข้างหน้า: ครบ 2, ยังไม่ถึง 9, รอ Q-xx 1, ช่องโหว่ 3
+- ข้อค้นพบใหม่: F-01, F-02, F-03, F-04, F-05
+- สรุป: ผล verification สร้าง rtm.md แล้ว รายงานในแช็ตตาม template พร้อมข้อความปิดท้ายว่า "ข้อค้นพบทั้งหมด AI เป็นคนตรวจ และอาจหาไม่ครบ ทีมต้องเปิดโค้ดและ spec ยืนยันทีละข้อ แล้วเขียนช่อง 'ทีมตัดสิน' เอง"
+
+---
+
 ## 2569-10-07 09.01 คำสั่ง: /testcases AC-BKG-01 specs/001-booking/
 
 - เครื่องมือ: Copilot ใน Codespaces (Agent, Auto)
